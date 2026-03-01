@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Chat Overlay (Twitch)
+Comment=Overlay czatu Twitch (autohide, click-through)
+Exec=%h/.local/bin/chat-overlay-start.sh
+Terminal=false
+StartupNotify=false
+Categories=Utility;
