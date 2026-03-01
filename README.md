@@ -1,21 +1,21 @@
 # Twitch Chat Overlay (Linux / X11)
 
 ```bash
-# INSTALACJA
+# INSTALATION
 git clone https://github.com/soprano777-maker/twitch-chat-overlay-linux.git
 cd twitch-chat-overlay-linux
 chmod +x install.sh uninstall.sh
 ./install.sh
 
-# KONFIGURACJA KANAŁU
+# CONFIGURATION CHANNEL
 nano ~/chat-overlay/twitch_overlay.py
-# ustaw:
-# CHANNEL = "twoj_login"   (bez twitch.tv/ i bez #)
+# setup:
+# CHANNEL = "your_login"   (without twitch.tv/ and without #)
 
-# URUCHAMIANIE
+# RUNING
 python3 ~/chat-overlay/twitch_overlay.py
-# albo z menu systemu: "Chat Overlay (Twitch)"
+# or from sys menu: "Chat Overlay (Twitch)"
 
-# DEINSTALACJA
+# UNINSTAL
 cd ~/twitch-chat-overlay-linux
 ./uninstall.sh
